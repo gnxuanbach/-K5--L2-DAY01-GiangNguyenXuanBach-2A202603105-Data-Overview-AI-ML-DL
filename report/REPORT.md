@@ -128,45 +128,45 @@ Chỉ dùng ảnh `sample_id = kitchen`. Chọn **một** record.
 
 1. Chép một record: `instance_id`=… ; `class_name`=… ; `score`=… ; số điểm polygon=`polygon_point_count`=… ; 3–5 điểm đầu của `polygon_xy`=…
 {
-    "sample_id": "traffic",
-    "coco_image_id": 210273,
+    "sample_id": "kitchen",
+    "coco_image_id": 397133,
     "image_width": 640,
-    "image_height": 428,
+    "image_height": 427,
     "task": "instance_segmentation",
     "taxonomy_name": "COCO-80",
     "model_file": "yolo11n-seg.pt",
     "model_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
     "ultralytics_version": "8.4.145",
     "score_threshold": 0.35,
-    "instance_id": "traffic-001",
-    "class_id": 5,
-    "class_name": "bus",
-    "score": 0.925745,
+    "instance_id": "kitchen-006",
+    "class_id": 45,
+    "class_name": "bowl",
+    "score": 0.528202,
     "coordinate_unit": "pixel",
     "bbox_format": "xyxy",
     "bbox_xyxy": [
-      95.3,
-      188.72,
-      224.08,
-      319.96
+      0.11,
+      302.85,
+      85.7,
+      370.15
     ],
-    "polygon_point_count": 120,
+    "polygon_point_count": 84,
     "polygon_xy": [
       [
-        148.0,
-        189.0
+        29.0,
+        303.0
       ],
       [
-        147.0,
-        190.0
+        28.0,
+        304.0
       ],
       [
-        145.0,
-        190.0
+        26.0,
+        304.0
       ],
       [
-        143.0,
-        192.0
+        25.0,
+        305.0
       ],]}
 
 
